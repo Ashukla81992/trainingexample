@@ -28,8 +28,10 @@ public class JoinExample {
 				
 				try {
 					t.join();
+					System.out.println("this is it");
 				} catch (InterruptedException e) {
 					// TODO Auto-generated catch block
+					System.out.println("there is some problem here");
 					e.printStackTrace();
 				}
 				System.out.println("main over");
